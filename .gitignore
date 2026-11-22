@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Build output (สร้างใหม่ได้ด้วย ./build.sh)
+.build/
+*.app/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ผลลัพธ์ที่ export จากโปรแกรม
+ntp_check_*.csv
